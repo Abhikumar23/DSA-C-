@@ -23,6 +23,7 @@ public:
         
         // Perform up to k selections
         for (int i = 0; i < k; ++i) {
+
             // Move all feasible projects into max-heap based on available capital
             while (!minCapital.empty() && minCapital.top().first <= w) {
                 maxProfit.push(minCapital.top().second);
@@ -30,7 +31,9 @@ public:
             }
             
             // If no projects can be started, stop
-            if (maxProfit.empty()) break;
+            if (maxProfit.empty()) {
+                break;
+            }
             
             // Pick the most profitable project
             w += maxProfit.top();

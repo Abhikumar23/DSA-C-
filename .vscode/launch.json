@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Abishek Kumar/Desktop/DSA/STRING",
-      "program": "c:/Users/Abishek Kumar/Desktop/DSA/STRING/build/Debug/outDebug",
+      "cwd": "c:/Users/Abishek Kumar/Desktop/DSA/Practice",
+      "program": "c:/Users/Abishek Kumar/Desktop/DSA/Practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
